@@ -1,0 +1,29 @@
+$mainBlue : #125FCC;
+$mainOrange : #F29810;
+$secondaryOrange : #dd8a0d;
+$orange15 : rgba($color: #f29810, $alpha: .25);
+
+
+.mainBtn {
+    background-color: $mainOrange;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 400;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 5px $orange15;
+    transition: .2s;
+
+    &:hover {
+        background-color: $secondaryOrange;
+        transition: .2s;
+    }
+
+    &:active {
+        box-shadow: 0 0 10px 15px $orange15;
+        transition: .2s;
+    }
+
+}

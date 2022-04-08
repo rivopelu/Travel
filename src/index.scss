@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+$mainBlue : #125FCC;
+$mainOrange : #F29810;
+$secondaryOrange : #dd8a0d;
+$orange15 : rgba($color: #f29810, $alpha: .25);
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    margin: 0 120px;
+
+}

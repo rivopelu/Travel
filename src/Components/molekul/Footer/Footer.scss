@@ -1,0 +1,85 @@
+$mainBlue : #125FCC;
+$mainOrange : #F29810;
+$secondaryOrange : #dd8a0d;
+$orange15 : rgba($color: #f29810, $alpha: .25);
+
+
+
+.FooterComp {
+    background-color: $mainBlue;
+    color: white;
+
+    padding: 80px 120px;
+    padding-bottom: 5px;
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+
+        .kiri {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            h2 {
+                color: $mainOrange;
+
+                span {
+                    color: white;
+                }
+            }
+
+            ul {
+                display: flex;
+                gap: 10px;
+
+                li {
+                    font-size: 25px;
+                }
+            }
+        }
+
+        .kanan {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            h2 {
+                color: $mainOrange;
+                text-align: right;
+
+                span {
+                    color: white;
+                }
+            }
+
+            ul {
+                display: flex;
+                gap: 20px;
+
+                li a {
+                    color: white;
+
+                    &:hover {
+                        color: silver;
+                    }
+                }
+            }
+        }
+    }
+
+    .garis {
+        border-bottom: 1px solid rgb(138, 138, 138);
+        padding-top: 10px;
+
+
+
+    }
+
+    .bawah {
+        p {
+            text-align: center;
+            padding-top: 60px;
+        }
+    }
+}

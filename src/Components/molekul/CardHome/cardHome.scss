@@ -1,0 +1,74 @@
+$mainBlue : #125FCC;
+$mainOrange : #F29810;
+$secondaryOrange : #dd8a0d;
+$orange15 : rgba($color: #f29810, $alpha: .25);
+
+.card-home {
+    position: absolute;
+    width: 99.1vw;
+    z-index: 1000;
+
+    .card {
+        background-color: rgb(173, 163, 163);
+        transform: translateX(50px);
+        display: flex;
+        flex-direction: row;
+        transform: translateY(-6.5rem);
+        // margin: 0 120px;
+        background: #FFFFFF;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        padding: 30px 50px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .content {
+        // background-color: red;
+        width: 25%;
+
+        i {
+            display: flex;
+            font-size: 22px;
+            background-color: #D7E3EE;
+            color: $mainBlue;
+            width: 45px;
+
+            height: 45px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+
+        }
+
+        h2 {
+            text-transform: capitalize;
+            font-weight: bold;
+            margin-top: 15px;
+            margin-bottom: 12px;
+        }
+
+        .input-content {
+            // background-color: rebeccapurple;
+            outline: none;
+            border: none;
+            font-size: 15px;
+            width: 80%;
+            border-bottom: 1px solid silver;
+            padding-bottom: 5px;
+            color: rgb(128, 128, 128);
+        }
+
+
+    }
+
+    .mainBtn {
+        font-size: 20px;
+    }
+
+
+}

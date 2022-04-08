@@ -1,0 +1,41 @@
+.HomePage {
+    .cover {
+        background: url(./picture.png);
+        background-attachment: fixed;
+        min-height: 100vh;
+
+
+
+        .gradient {
+            height: 100vh;
+            background: radial-gradient(50% 50% at 50% 50%, rgba(18, 95, 204, 0.42) 57.81%, rgba(18, 95, 204, 0.67) 100%);
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            .text-home {
+                // background-color: red;
+                color: white;
+                text-align: center;
+                font-size: 30px;
+                margin: 0 20%;
+
+                button {
+                    font-size: 25px;
+                }
+            }
+
+
+
+        }
+    }
+
+
+
+
+
+
+
+}

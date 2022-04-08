@@ -1,0 +1,82 @@
+$mainBlue : #125FCC;
+$mainOrange : #F29810;
+$secondaryOrange : #dd8a0d;
+$orange15 : rgba($color: #f29810, $alpha: .25);
+
+.NavComponent {
+    width: 100vw;
+    position: fixed;
+    padding: 10px 120px;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .brand {
+
+        a {
+
+            color: $mainOrange;
+
+            span {
+                color: white;
+            }
+        }
+    }
+
+
+    .kanan {
+        display: flex;
+        gap: 45px;
+
+        ul {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navList {
+            a {
+                color: white;
+                font-weight: 400;
+                transition: .2s;
+                padding: 1px 4px;
+                position: relative;
+
+                &:hover {
+                    color: rgb(159, 158, 252);
+                    transition: .2s;
+                }
+            }
+
+            .active {
+
+                border-bottom: 1px solid;
+            }
+        }
+
+        .auth {
+            a {
+                color: white;
+            }
+
+            .login {
+                color: $mainBlue;
+                background-color: white;
+                padding: 5px 20px;
+                font-weight: 600;
+                border-radius: 20px;
+                transition: .2s;
+
+                &:hover {
+                    background-color: $mainOrange;
+                    color: white;
+                    transition: .2s;
+                }
+            }
+        }
+    }
+}
+
+.scroll-nav {
+    background-color: $mainBlue;
+}

@@ -1,0 +1,92 @@
+$mainBlue : #125FCC;
+$mainOrange : #F29810;
+$secondaryOrange : #dd8a0d;
+$orange15 : rgba($color: #f29810, $alpha: .25);
+
+
+.maincontent {
+    background-color: white;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+
+    transform: translateY(-30px);
+    z-index: -100;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.25);
+
+
+    width: 100vw;
+
+
+    padding: 0 120px;
+    padding-top: 250px;
+
+    padding-bottom: 100px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 110px;
+
+
+        .conte {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            width: 100%;
+
+            .hastag {
+                color: $mainBlue;
+                font-weight: bold;
+            }
+
+            .title {
+                font-size: 55px;
+                // background-color: red;
+                width: 100%;
+            }
+
+            .text {
+                // background-color: red;
+                width: 80%;
+            }
+
+            .bawah {
+                display: flex;
+
+                gap: 15px;
+
+                .content {
+
+                    h1 {
+                        color: $mainBlue;
+                        font-size: 55px;
+
+                        span {
+                            color: #dd8a0d;
+                        }
+                    }
+
+                    p {
+                        color: rgb(124, 124, 124);
+                        font-weight: bold;
+                        display: flex;
+                        transform: translateY(-20px);
+                    }
+                }
+            }
+        }
+
+        .gambar {
+            // background-color: red
+
+            display: flex;
+
+
+            img {
+                width: 500px;
+            }
+        }
+    }
+}
